@@ -11,4 +11,5 @@ Threat Enrichment: Upon receiving the alert, the workflow automatically extracts
 Notification & Action: Finally, the enriched security report is automatically pushed to communication channels like Slack or Email, enabling SOC analysts to see the exact malicious score instantly and respond without manual delays.   
 
 Archiitecture Design for the Project:
- .\{SOAR-EDR}
+![](SOAR-EDR.png)
+

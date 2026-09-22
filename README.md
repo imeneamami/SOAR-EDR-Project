@@ -9,3 +9,6 @@ Detection & Trigger: The workflow starts with a Webhook trigger from LimaCharlie
 Threat Enrichment: Upon receiving the alert, the workflow automatically extracts file indicators like the file hash of the alers and queries the VirusTotal v3 API to check its reputation and get analysis statistics and flag it either malicious or not.  
 
 Notification & Action: Finally, the enriched security report is automatically pushed to communication channels like Slack or Email, enabling SOC analysts to see the exact malicious score instantly and respond without manual delays.   
+
+Archiitecture Design for the Project:
+ .\{SOAR-EDR}
